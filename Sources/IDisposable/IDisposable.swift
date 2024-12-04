@@ -1,10 +1,7 @@
-
-public protocol IDisposable
-{
+public protocol IDisposable {
 	func dispose()
 }
 
-public enum ObjectDisposedException : Error
-{
-	case ObjectDisposed
+public enum ObjectDisposedException: Error {
+	case objectDisposed
 }
